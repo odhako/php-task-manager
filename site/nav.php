@@ -16,6 +16,6 @@ function if_current_page($uri, $link) {
         <li><a href="#">Статусы</a></li>
         <li><a href="#">Метки</a></li>
         <li><a href="#">Задачи</a></li>
-        <li><a href=""><?= $uri ?></a></li>
+        <li><?= $uri ?></li>
     </ul>
 </nav>
