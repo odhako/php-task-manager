@@ -1,4 +1,15 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'on');
+require_once 'settings.php';
+
+function database_connection() {
+    $host = DATABASE['host'];
+    $user = DATABASE['user'];
+    $pass = DATABASE['pass'];
+    $name = DATABASE['name'];
+    return mysqli_connect($host, $user, $pass, $name);
+}
 
 ?>
 <!DOCTYPE html>

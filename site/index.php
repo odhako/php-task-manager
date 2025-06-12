@@ -1,4 +1,4 @@
-<?php include 'top.php'; ?>
+<?php include 'base.php'; ?>
 
     <title>Менеджер задач</title>
 </head>
