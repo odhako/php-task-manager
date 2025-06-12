@@ -33,8 +33,8 @@ function get_all_users($link) {
         <?php foreach (get_all_users($link) as $row): ?>
             <tr>
                 <td><?= $row['id'] ?></td>
-                <td><?= $row['nickname'] ?></td>
-                <td><?= $row['name'] . ' ' . $row['lastname'] ?></td>
+                <td><?= $row['name'] ?></td>
+                <td><?= $row['first_name'] . ' ' . $row['last_name'] ?></td>
                 <td><?= $row['created'] ?></td>
             </tr>
         <?php endforeach ?>
